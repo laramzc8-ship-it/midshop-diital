@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Midshop Digital – Dark Premium Verde/Azul</title>
+  <style>
+    :root {
+      --bg: #0a0f0f;
+      --surface: #0f1a1a;
+      --accent: #0d3b66;
+      --accent2: #0b5345;
+      --text: #e8f6f3;
+      --card: #0f1416;
+      --radius: 14px;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Inter", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    header {
+      padding: 32px;
+      text-align: center;
+      background: linear-gradient(135deg, var(--accent2), var(--accent));
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+
+    header h1 {
+      font-size: 2.3rem;
+      margin: 0;
+      font-weight: 700;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: 40px auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 26px;
+    }
+
+    .card {
+      background: var(--card);
+      padding: 18px;
+      border-radius: var(--radius);
+      border: 1px solid rgba(0,0,0,0.4);
+      box-shadow: 0 0 20px rgba(0, 30, 40, 0.4);
+      transition: transform .25s ease, box-shadow .25s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 0 25px rgba(0, 50, 70, 0.7);
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: var(--radius);
+    }
+
+    .card h3 {
+      margin-top: 14px;
+      margin-bottom: 8px;
+      font-size: 1.15rem;
+    }
+
+    .card p {
+      opacity: 0.9;
+      font-size: 0.95rem;
+    }
+
+    .btn {
+      margin-top: 12px;
+      display: block;
+      width: 100%;
+      padding: 12px;
+      text-align: center;
+      border-radius: var(--radius);
+      background: var(--accent);
+      color: white;
+      font-weight: 600;
+      text-decoration: none;
+      transition: 0.25s;
+    }
+
+    .btn:hover {
+      background: var(--accent2);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Midshop Digital – Produtos Premium</h1>
+  </header>
+
+  <div class="container">
+
+    <!-- 12 PRODUTOS -->
+    <div class="card"><img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f" /><h3>Relógio Luxo Dark</h3><p>Design premium com vidro safira.</p><a class="btn">Comprar</a></div>
+
+    <div class="card"><img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff" /><h3>Fone Wireless Elite</h3><p>Som cristalino e cancelamento de ruído.</p><a class="btn">Comprar</a></div>
+
+    <div class="card"><img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e" /><h3>Headset Pro Blue</h3><p>Áudio imersivo para jogos e trabalho.</p><a class="btn">Comprar</a></div>
+
+    <div class="card"><img src="https://images.unsplash.com/photo-1512499617640-c2f999098c01" /><h3>Smartwatch Steel</h3><p>Bateria de longa duração e pulseira aço.</p><a class="btn">Comprar</a></div>
+
+    <div class="card"><img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f" /><h3>Relógio Minimal Dark</h3><p>Visual elegante e resistente.</p><a class="btn">Comprar</a></div>
+
+    <div class="card"><img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff" /><h3>Fone DeepBass</h3><p>Graves potentes e conforto máximo.</p><a class="btn">Comprar</a></div>
+
+    <div class="card"><img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e" /><h3>Headset Azul Noturno</h3><p>Design robusto e isolante acústico.</p><a class="btn">Comprar</a></div>
+
+    <div class="card"><img src="https://images.unsplash.com/photo-1512499617640-c2f999098c01" /><h3>Smartwatch DarkWave</h3><p>Funções fitness e tela AMOLED.</p><a class="btn">Comprar</a></div>
+
+    <div class="card"><img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f" /><h3>Relógio Premium SteelBlue</h3><p>Acabamento metálico azul profundo.</p><a class="btn">Comprar</a></div>
+
+    <div class="card"><img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff" /><h3>Fone Crystal Blue</h3><p>Qualidade sonora superior.</p><a class="btn">Comprar</a></div>
+
+    <div class="card"><img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e" /><h3>Headset DeepOcean</h3><p>Som surround e conforto premium.</p><a class="btn">Comprar</a></div>
+
+    <div class="card"><img src="https://images.unsplash.com/photo-1512499617640-c2f999098c01" /><h3>Smartwatch BlueNight</h3><p>Monitoramento avançado e pulseira macia.</p><a class="btn">Comprar</a></div>
+
+  </div>
+</body>
+</html>
